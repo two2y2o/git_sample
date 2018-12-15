@@ -7,4 +7,11 @@ puts <<~TEXT
 SQL文
 SELECT * FROM USERS;
 
+
 TEXT
+
+users = ["satou", "saitou", "saeki", "sazae"]
+
+users.each do |user|
+  puts user
+end
